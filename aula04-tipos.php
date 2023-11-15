@@ -10,7 +10,7 @@
     <?php
        $nome = "Maria";
        $idade = 18;
-       echo "$nome tem $idade anos!";
+       echo "$nome tem $idade anos!"; #Concatenação
     ?>
 </div>
 </body>

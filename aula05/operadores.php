@@ -1,3 +1,5 @@
+// localhost/aula05/operadores.php?a=4&b=2
+
 <!DOCTYPE html>
 <html>
 <head>

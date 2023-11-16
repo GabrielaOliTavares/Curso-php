@@ -8,10 +8,10 @@
 <body>
 <div>
     <?php
-       $ano = $_GET["an"];
+       $ano = $_GET["an"]; #ano de nascimento
        $idade = 2014 - $ano;
        echo "Quem nasceu em $ano tem idade de $idade anos.";
-       $tipo = ($idade>=18 && $idade<65)?"OBRIGATORIO":"NAO OBRIGATORIO";
+       $tipo = ($idade>=18 && $idade<65)?"OBRIGATORIO":"NAO OBRIGATORIO"; #condicional para ver se é obrigatorio ou nao votar
        echo " E dessa forma seu voto e $tipo";
     ?>
 </div>
